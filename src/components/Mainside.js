@@ -249,10 +249,12 @@ const SocialCommentsCount = styled.ul`
         color: #00000099;
         margin: 0 0 0 2px;
       }
+
     }
   }
 `;
 const SocialActions = styled.div`
+ 
   margin: 0 16px;
   padding: 8px 0;
   display: flex;
@@ -278,6 +280,18 @@ const SocialActions = styled.div`
       background-color: rgba(0, 0, 0, 0.08);
     }
   }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    flex-wrap:wrap;
+    margin-left:20px;
+    button{
+      width: 50%;
+      justify-content:flex-start;
+      svg{
+        
+      }
+    }
+
+    }
 `;
 
 export default Mainside;

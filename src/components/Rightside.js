@@ -72,6 +72,8 @@ align-items:center;
 h2{
     font-size:16px;
     color: rgba(0,0,0,0.6);
+    font-family:  'Roboto',-apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 `
 const FeedList=styled.ul`
